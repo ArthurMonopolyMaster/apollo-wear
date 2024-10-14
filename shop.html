@@ -1,0 +1,530 @@
+<!-- HEADER -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Now</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font & Icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        #featured > div > nav > ul > li.page-item.active > a {
+            background-color: black;
+            border-color: black;
+        }
+        #featured > div > nav > ul > li:nth-child(n):hover>a{
+            color: #ffff;
+            background-color:rgb(87, 86, 86);
+        }
+        .pagination a{
+            color: black;
+        }
+
+    </style>
+
+</head>
+<body>
+<!-- END HEADER -->
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+    <div class="container">
+        <img src="img/logo.jpg" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i id="bar" class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                </li>
+        </div>
+    </div>
+</nav>
+<!-- END NAVBAR -->
+
+<!-- FEATURED -->
+<section class="featured mt-5 my-5 pb-5" id="featured">
+    <div class="container">
+        <div class="container text-center my-3 py-5">
+            <h3>OUR FEATURED</h3>
+            <hr class="mx-auto">
+            <p>this is our featured product. don't miss.</p>
+        </div>
+        <div class="row container-fluid mx-auto">
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/backpack.jpg" alt="">
+                <h5 class="p-name">Backpack</h5>
+                <h4 class="p-price">Rp 400.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/chelsea-fc-dri-fit-pre-match-short-sleeve-football-top-BqgmZ8.jpg" alt="">
+                <h5 class="p-name">Chelsea FC Dri Fit</h5>
+                <h4 class="p-price">Rp 900.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/dri-fit-run-division-rise-365-short-sleeve-running-top.jpg" alt="">
+                <h5 class="p-name">Short Sleeve Running Top</h5>
+                <h4 class="p-price">Rp 350.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>  
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/court-vision-mid-shoes.jpg" alt="">
+                <h5 class="p-name">Court Vision Mid Shoes</h5>
+                <h4 class="p-price">Rp 2.000.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/paris-saint-germain-2022-23-stadium-fourth-dri-fit-football-shirt-LXHxD1.jpg" alt="">
+                <h5 class="p-name">Paris Saint German</h5>
+                <h4 class="p-price">Rp 800.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/philadelphia-76ers-city-edition-dri-fit-nba-swingman-jersey-mGJ4bL.jpg" alt="">
+                <h5 class="p-name">NBA Swingman Jersey</h5>
+                <h4 class="p-price">Rp 700.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/air-presto-shoe-women.jpg" alt="">
+                <h5 class="p-name">Air Presto Shoe Women</h5>
+                <h4 class="p-price">Rp 1.800.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/air-running-midlayer-HMmFgx.jpg" alt="">
+                <h5 class="p-name">Air Running Midlayer</h5>
+                <h4 class="p-price">Rp 1.800.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/jordan-pro-jumpman-snapback-hat-KbPBND.jpg" alt="">
+                <h5 class="p-name">Jordan Pro Jump</h5>
+                <h4 class="p-price">Rp 2.500.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/shoe-box-bag-M9GftZ.jpg" alt="">
+                <h5 class="p-name">Shoe Box Bag</h5>
+                <h4 class="p-price">Rp 750.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/dri-fit-adv-aeroswift-racing-vest-613JkQ.jpg" alt="">
+                <h5 class="p-name">Dri Fit Adv</h5>
+                <h4 class="p-price">Rp 1.700.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/tanjun-backpack-vqWKxS.jpg" alt="">
+                <h5 class="p-name">Tanjun Backpack</h5>
+                <h4 class="p-price">Rp 990.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/dri-fit-run-division-rise-365-short-sleeve-running-top.jpg" alt="">
+                <h5 class="p-name">Dri Fit Run Division </h5>
+                <h4 class="p-price">Rp 500.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/dunk-high-retro-se-shoes.jpg" alt="">
+                <h5 class="p-name">Dunck High Retro</h5>
+                <h4 class="p-price">Rp 1.500.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/dynamo-go-younger-easy-on-off-shoes-dCf2Zv.jpg" alt="">
+                <h5 class="p-name">Dynamo Go Younger</h5>
+                <h4 class="p-price">Rp 1.200.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/everyday-cushioned-crew-socks-Pnr3VB.jpg" alt="">
+                <h5 class="p-name">Crew Shocks</h5>
+                <h4 class="p-price">Rp 340.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/flex-advance-younger-shoes-rXcKzS.jpg" alt="">
+                <h5 class="p-name">Flex Advance Younger Shoe</h5>
+                <h4 class="p-price">Rp 1.300.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/offcourt-slides-kJDhS7.jpg" alt="">
+                <h5 class="p-name">offcourt Slides</h5>
+                <h4 class="p-price">Rp 700.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/pro-dri-fit-mid-rise-graphic-training-leggings-22nf9C.jpg" alt="">
+                <h5 class="p-name">Training Leggings</h5>
+                <h4 class="p-price">Rp 700.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/retro-gts-shoes-9NMjL5.jpg" alt="">
+                <h5 class="p-name">Retro GTS Shoes</h5>
+                <h4 class="p-price">Rp 1.700.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/court-vision-mid-shoes.jpg" alt="">
+                <h5 class="p-name">Court Vision Mid Shoes</h5>
+                <h4 class="p-price">Rp 1.700.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/sportswear-t-shirt-7CDD90.jpg" alt="">
+                <h5 class="p-name">Sport Wear T-Shirt</h5>
+                <h4 class="p-price">Rp 550.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/backpack.jpg" alt="">
+                <h5 class="p-name">Backpack</h5>
+                <h4 class="p-price">Rp 400.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+            <div class="product col-lg-2 col-md-3 col-6 text-center">
+                <a href="sproduct.html" class="link">
+                <img class="img-fluid mb-3" src="img/featured/air-presto-shoe-women.jpg" alt="">
+                <h5 class="p-name">Air Presto Shoe Women</h5>
+                <h4 class="p-price">Rp 2.300.000</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <button class="buy-btn">Buy Now</button>
+                </a>
+            </div>
+        </div>
+        <nav aria-label="..." class="">
+            <ul class="pagination justify-content-center align-item-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">1 <span class="sr-only">(current)</span></a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</section>
+<!-- END FEATURED -->
+
+<!-- PAGINATION -->
+<!-- END PAGINATION -->
+
+<!-- FOOTER -->
+<footer class="mt-5 py-5">
+    <div class="row container mx-auto pt-5">
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+            <img src="img/logo.jpg" alt="">
+            <p class="pt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis tempore nam exercitationem quasi laudantium porro iure saepe ipsa rem suscipit.</p>
+        </div>
+        <div class="footer-one col-lg-3 col-md-4 col-12">
+            <h5 class="pb-2">Featured</h5>
+            <ul class="text-uppercase list-unstyled">
+                <li><a href="#">Man</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Apperals</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Equipment</a></li>
+            </ul>
+        </div>
+        <div class="footer-one col-lg-3 col-md-4 col-12">
+            <h5 class="pb-2">Contact Us</h5>
+            <div>
+                <h6>ADDRESS</h6>
+                <p>STREET NAME, DISTRICT NAME, CITY NAME, COUNTRY NAME</p>
+            </div>
+            <div>
+                <h6>PHONE</h6>
+                <p>(123) 4567-8901</p>
+            </div>
+            <div>
+                <h6>EMAIL</h6>
+                <p>EXAMPLE@MAIL.COM</p>
+            </div>
+        </div>
+        <div class="footer-one col-lg-3 col-md-4 col-12">
+            <h5 class="pb-2">Instagram</h5>
+            <div class="row">
+                <img class="img-fluid w-25 h-100 m-2" src="img/footer/air-max-2021-shoes-P00HsV.jpg" alt="">
+                <img class="img-fluid w-25 h-100 m-2" src="img/footer/everyday-essential-crew-socks-5pd7JF.jpg" alt="">
+                <img class="img-fluid w-25 h-100 m-2" src="img/footer/force-1-lv8-younger-shoes-kHqhbD.jpg" alt="">
+                <img class="img-fluid w-25 h-100 m-2" src="img/footer/goalkeeper-match-football-gloves-0S4K6P.jpg" alt="">
+                <img class="img-fluid w-25 h-100 m-2" src="img/footer/jordan-paris-saint-germain-strike-football-whKWF4.jpg" alt="">
+                <img class="img-fluid w-25 h-100 m-2" src="img/footer/jordan-pro-jumpman-snapback-hat-KbPBND.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="copyright mt-5">
+        <div class="row container mx-auto">
+            <div class="col-lg-3 col-md-6 col-12">
+                <img class="img-fluid w-100 h-150" src="img/footer/Credit-Card-Visa-And-Master-Card-Transparent-PNG-1024x238-1.png" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 text-nowrap">
+                <p>Undou Sport Store @ 2022 All Rights Reserved</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <a href="#" class="fab fa-facebook-square"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-twitter-square"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END FOOTER -->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
