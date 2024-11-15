@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "json-server": "github:typicode/json-server"
+  }
+}
