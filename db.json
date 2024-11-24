@@ -1,34 +1,21 @@
 {
-  "cart": [
-    {
-      "id": 1,
-      "name": "Apollo Running Shoes",
-      "price": 120,
-      "quantity": 2,
-      "total": 240
-    },
-    {
-      "id": 2,
-      "name": "Apollo Fitness Hoodie",
-      "price": 80,
-      "quantity": 1,
-      "total": 80
-    }
-  ],
+  "cart": [],
   "reviews": [
     {
       "productId": 1,
       "author": "Іван",
       "rating": 5,
       "comment": "Дуже зручне взуття для бігу!",
-      "date": "2023-11-15"
+      "date": "2023-11-15",
+      "id": "9c38"
     },
     {
       "productId": 2,
       "author": "Олена",
       "rating": 4,
       "comment": "Класна худі, але трохи велика.",
-      "date": "2023-11-14"
+      "date": "2023-11-14",
+      "id": "ed89"
     }
   ]
 }
