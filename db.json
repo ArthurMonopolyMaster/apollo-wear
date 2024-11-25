@@ -1,5 +1,13 @@
 {
-  "cart": [],
+  "cart": [
+    {
+      "id": "1",
+      "name": "Chelsea FC Dri Fit",
+      "price": 900000,
+      "quantity": 1,
+      "total": 900000
+    }
+  ],
   "reviews": [
     {
       "productId": 1,
